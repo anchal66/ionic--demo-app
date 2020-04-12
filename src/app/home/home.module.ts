@@ -20,4 +20,11 @@ import { HomePage } from './home.page';
   ],
   declarations: [HomePage]
 })
-export class HomePageModule {}
+export class HomePageModule {
+  
+  text = "hiiii";
+
+  onClickText(){
+    this.text = "hi";
+  }
+}
